@@ -1,6 +1,6 @@
 # Diana Abdykassenova
 
-## Contact information:
+## Contact information
 
 - **Phone:** +7 707 3284699
 - **E-mail:** tdm2886@gmail.com
@@ -20,3 +20,21 @@ Today my goal is to become a good programmer. To achieve my goal, I completely i
 - JavaScript Basics
 - Git, GitHub
 - VS Code, IntelliJ IDEA
+
+# Code example
+
+```javascript
+function showPrimes(n) {
+  for (let i = 2; i < n; i++) {
+    if (!isPrime(i)) continue;
+    alert(i);
+  }
+}
+
+function isPrime(n) {
+  for (let i = 2; i < n; i++) {
+    if (n % i == 0) return false;
+  }
+  return true;
+}
+```
