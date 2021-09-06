@@ -48,3 +48,7 @@ function isPrime(n) {
 
 - Karagandy State Technical University, Systems Engineer
 - Online learning
+
+# English level
+
+B1 - EPAM English test result
