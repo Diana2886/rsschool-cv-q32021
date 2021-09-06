@@ -38,3 +38,13 @@ function isPrime(n) {
   return true;
 }
 ```
+
+# Work experience
+
+- Chief specialist in a government organization
+- No experience in JS/Front-end development
+
+# Education
+
+- Karagandy State Technical University, Systems Engineer
+- Online learning
