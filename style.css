@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #2c323d;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  display: block;
+  width: 35%;
+  color: #ffffff;
+}
+
+.aside_photo img {
+  display: block;
+  width: 100%;
+}
+
+aside h2 {
+  padding-left: 40px;
+  font-size: 28px;
+  background-color: #424753;
+  border-left: 10px solid #f2c100;
+}
+
+.contact {
+  padding: 50px 0px;
+  background-color: #343945;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+aside p {
+  padding-right: 40px;
+  padding-left: 50px;
+}
+
+.contact_div,
+.education_div {
+  padding-top: 22px;
+}
+
+.contact_div p,
+.education_div p {
+  padding-top: 8px;
+}
+
+.contact_head,
+.education_head {
+  font-size: 18px;
+}
+
+.education {
+  padding: 50px 0;
+}
+
+main {
+  display: block;
+  width: 65%;
+  background-color: #ffffff;
+}
+
+main h2 {
+  padding-left: 40px;
+  font-size: 28px;
+  background-color: #ebebeb;
+  border-left: 10px solid #f2c100;
+}
+
+main p {
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 40px;
+}
+
+main section {
+  padding-top: 40px;
+}
+
+.name {
+  padding-top: 70px;
+  padding-left: 50px;
+}
+
+.name h1 {
+  font-size: 48px;
+}
+
+.prof {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  font-size: 32px;
+}
+
+.experience {
+  display: flex;
+}
+
+.experience p {
+  padding-top: 8px;
+}
+
+.experience_year {
+  display: block;
+  width: 35%;
+  padding-top: 22px;
+}
+
+.position {
+  display: block;
+  width: 65%;
+  padding-top: 22px;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills1,
+.skills2,
+.dots1,
+.dots2 {
+  display: block;
+  width: 25%;
+  padding-top: 22px;
+}
+
+.skills ul {
+  padding-top: 3px;
+  padding-left: 50px;
+  line-height: 27px;
+}
+
+.dots1 div,
+.dots2 div {
+  padding-top: 8px;
+}
+
+.skills .skills2 ul {
+  padding-left: 30px;
+}
+
+.dot_y,
+.dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+}
+
+.dot_y {
+  background-color: #f2c100;
+}
+
+code {
+  font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: #424753;
+}
+
+footer img {
+  display: block;
+  margin: 0 40px;
+}
