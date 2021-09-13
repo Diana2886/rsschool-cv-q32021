@@ -4,16 +4,30 @@
         <meta charset="utf-8">
         <title>Diana Abdykassenova CV</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="libs/highlight/styles/a11y-light.min.css">
     </head>
     <body>
         <div class="main_container">
+            <header>
+                <nav>
+                    <ul class="navigation">
+                        <li><a href="#about">About myself</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#english">English level</a></li>
+                        <li><a href="#code">Code example</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#education">Education</a></li>
+                    </ul>
+                </nav>
+            </header>
             <div class="container">
                 <aside>
                     <div class="aside_photo">
                         <img src="img/photo.jpg" alt="photo">   
                     </div>
                     <section class="contact">
-                        <h2>Contact</h2>
+                        <h2 id="contact">Contact</h2>
                         <ul>
                             <li>
                                <div class="contact_div">
@@ -42,7 +56,7 @@
                         </ul>
                     </section>
                     <section class="education">
-                        <h2>Education</h2>   
+                        <h2 id="education">Education</h2>   
                         <div class="education_div">
                             <p class="education_head">2003-2008</p>
                             <p>Systems Engineer</p>
@@ -55,20 +69,18 @@
                     </section>                       
                 </aside>  
                 <main>
-                    <header>
-                        <div class="name">
-                            <h1>Diana <br>Abdykassenova</h1>
-                        </div>
-                        <div class="prof">
-                            Front-End Developer
-                        </div>
-                    </header>
+                    <div class="name">
+                        <h1>Diana <br>Abdykassenova</h1>
+                    </div>
+                    <div class="prof">
+                        Front-End Developer
+                    </div>
                     <section>
-                        <h2>About myself</h2>
+                        <h2 id="about">About myself</h2>
                         <p>I have been working in the civil service for many years. Working strictly on schedule in the office and doing uninteresting work, I came to the conclusion that I completely wanted to change my life. Namely, to change the daily routine, be able to work remotely, develop in terms of career growth and, as a result, have a decent salary. Today my goal is to become a good programmer. To achieve my goal, I completely immersed myself in learning new information and hope to get enough practical skills through this course.</p>
                     </section>
                     <section>
-                        <h2>Experience</h2>
+                        <h2 id="experience">Experience</h2>
                         <div class="experience">
                             <div class="experience_year">
                                 <p>2008-2021</p> <p>Department of Construction, <br>Architecture and Urban Planning</p>
@@ -80,7 +92,7 @@
                         </div>
                     </section>
                     <section>
-                        <h2>Skills</h2>
+                        <h2 id="skills">Skills</h2>
                         <div class="skills">
                             <div class="skills1">
                                 <ul>
@@ -146,19 +158,19 @@
                         </div>
                     </section>
                     <section>
-                        <h2>English</h2>
+                        <h2 id="english">English level</h2>
                         <p>B1 - EPAM English test result</p>
                     </section>
                     <section>
-                        <h2>Code example</h2>
+                        <h2 id="code">Code example</h2>
                         <pre>
                             <code>
-      function factorial(n) {
-          if ((n === 0) || (n === 1))
-              return 1;
-          else
-              return (n * factorial(n - 1));
-      }
+function factorial(n) {
+    if ((n === 0) || (n === 1))
+        return 1;
+    else
+        return (n * factorial(n - 1));
+}
                             </code>
                         </pre>
                     </section>
@@ -180,5 +192,12 @@
                 </div>
             </footer>          
         </div>
+        <script>
+            document.documentElement.scrollTop = 0;
+        </script>
+        <script src="libs/highlight/highlight.min.js"></script>
+        <script>
+            hljs.highlightAll();
+        </script>
     </body>
 </html>
